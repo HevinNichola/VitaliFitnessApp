@@ -64,7 +64,6 @@ class _FitnessProgressState extends State<FitnessProgress> {
           });
         }
       });
-
       setState(() {
         userData = {
           'Calories': totalCalories,
